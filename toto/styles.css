@@ -110,3 +110,15 @@ button {
     background-color: #0f0f0f69;
   }
 }
+
+/* Styles par défaut (mode clair) */
+body {
+  background-color: white;
+  color: black;
+}
+
+/* Styles pour le mode sombre */
+body.dark {
+  background-color: black;
+  color: white;
+}
